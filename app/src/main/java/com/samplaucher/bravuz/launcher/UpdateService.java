@@ -137,7 +137,7 @@ public class UpdateService extends Service {
     void startUpdating()
     {
         setUpdateStatus(UpdateActivity.UpdateStatus.CheckUpdate);
-        Volley.newRequestQueue(getApplicationContext()).add(new StringRequest("http://192.168.0.114/apikayzen/client_config.json", new Response.Listener<String>() {
+        Volley.newRequestQueue(getApplicationContext()).add(new StringRequest("http://nativoroleplay.infinityfreeapp.com/api/client_config.json", new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 try {
@@ -379,7 +379,7 @@ public class UpdateService extends Service {
             Log.d("Thziim", "startDataUpdating " + mUpdateGameDataSize + " " + mUpdateGameDataSizeUpdated);
 
             mDownloadingStatus = true;
-            PRDownloader.download("http://192.168.0.114/apikayzen/com.nativoroleplay.game/" + arrayList.get(intRef.element), string.replace(arrayList1.get(intRef.element).toString(), ""), String.valueOf(arrayList1.get(intRef.element))).build().setOnStartOrResumeListener(null).setOnPauseListener(null).setOnCancelListener(null).setOnProgressListener(new OnProgressListener() {
+            PRDownloader.download("http://nativoroleplay.infinityfreeapp.com/api/files/" + arrayList.get(intRef.element), string.replace(arrayList1.get(intRef.element).toString(), ""), String.valueOf(arrayList1.get(intRef.element))).build().setOnStartOrResumeListener(null).setOnPauseListener(null).setOnCancelListener(null).setOnProgressListener(new OnProgressListener() {
                 @Override
                 public void onProgress(Progress progress) {
                     mDownloadingStatus = true;

@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     private boolean carregouServidor = false;
     private JSONArray servidoresCache = null;
 
-    private final String API_URL = "http://192.168.0.114/apikayzen/players.php";
+    private final String API_URL = "http://nativoroleplay.infinityfreeapp.com/api/players.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -492,8 +492,8 @@ public class MainActivity extends AppCompatActivity {
         if (file.exists()) {
             try {
                 Wini wini = new Wini(file);
-                wini.put("client", "host", "192.168.0.114"); // IP fixo
-                wini.put("client", "port", 7777);             // Porta fixa
+                wini.put("client", "host", "135.148.164.122"); // IP fixo
+                wini.put("client", "port", 29072);             // Porta fixa
                 wini.store();
             } catch (IOException e) {
                 e.printStackTrace();
