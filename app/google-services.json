@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "507249971590",
-    "project_id": "sampmobile-crashes",
-    "storage_bucket": "sampmobile-crashes.firebasestorage.app"
+    "project_number": "252025889265",
+    "project_id": "nativoroleplay",
+    "storage_bucket": "nativoroleplay.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:507249971590:android:d7c8c222c4d1b3d93e5c07",
+        "mobilesdk_app_id": "1:252025889265:android:0ca95136c28b2cbace6450",
         "android_client_info": {
-          "package_name": "com.raiferoleplay.game"
+          "package_name": "com.nativoroleplay.game"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDMT4OXRG3u7IMENtuRUwT15hgK6yA5wYM"
+          "current_key": "AIzaSyCg6BuJU7kx_nYoavchqXMdEg2d0SaEFmo"
         }
       ],
       "services": {
