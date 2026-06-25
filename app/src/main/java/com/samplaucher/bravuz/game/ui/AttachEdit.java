@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.game.ui;
+package com.nativoroleplay.game.game.ui;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -13,8 +13,8 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.google.android.material.button.MaterialButton;
 import com.joom.paranoid.Obfuscate;
-import com.raiferoleplay.game.R;
-import com.raiferoleplay.game.launcher.util.Util;
+import com.nativoroleplay.game.R;
+import com.nativoroleplay.game.launcher.util.Util;
 @Obfuscate
 public class AttachEdit {
     private final int POSITION_Y = 0;

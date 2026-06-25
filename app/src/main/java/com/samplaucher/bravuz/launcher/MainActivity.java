@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.launcher; // Mude para este que é o caminho real visto na print
+package com.nativoroleplay.game.launcher; // Mude para este que é o caminho real visto na print
 
 import android.app.Dialog;
 import android.graphics.Color;
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.raiferoleplay.game.R;
+import com.nativoroleplay.game.R;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -26,8 +26,8 @@ import java.io.FileWriter;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import com.raiferoleplay.game.launcher.util.SharedPreferenceCore;
-import com.raiferoleplay.game.launcher.util.SignatureChecker;
+import com.nativoroleplay.game.launcher.util.SharedPreferenceCore;
+import com.nativoroleplay.game.launcher.util.SignatureChecker;
 
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -540,7 +540,7 @@ public class MainActivity extends AppCompatActivity {
         }*/
 
         // INICIA O JOGO
-        startActivity(new Intent(this, com.raiferoleplay.game.game.SAMP.class));
+        startActivity(new Intent(this, com.nativoroleplay.game.game.SAMP.class));
         finish();
     }
 }

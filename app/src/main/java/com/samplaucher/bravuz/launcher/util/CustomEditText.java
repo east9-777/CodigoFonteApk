@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.launcher.util;
+package com.nativoroleplay.game.launcher.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.view.KeyEvent;
 import android.widget.EditText;
 
 import com.nvidia.devtech.NvEventQueueActivity;
-import com.raiferoleplay.game.game.SAMP;
+import com.nativoroleplay.game.game.SAMP;
 
 @SuppressLint("AppCompatCustomView")
 public class CustomEditText extends EditText {

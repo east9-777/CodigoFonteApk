@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.launcher;
+package com.nativoroleplay.game.launcher;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -28,9 +28,9 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.FileProvider;
 
 import com.joom.paranoid.Obfuscate;
-import com.raiferoleplay.game.R;
-import com.raiferoleplay.game.launcher.config.Config;
-import com.raiferoleplay.game.launcher.util.SignatureChecker;
+import com.nativoroleplay.game.R;
+import com.nativoroleplay.game.launcher.config.Config;
+import com.nativoroleplay.game.launcher.util.SignatureChecker;
 
 import java.io.File;
 

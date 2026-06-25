@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.launcher;
+package com.nativoroleplay.game.launcher;
 
 import android.Manifest;
 import android.content.ComponentName;
@@ -32,11 +32,11 @@ import androidx.core.content.ContextCompat;
 import com.downloader.Progress;
 import com.google.firebase.crashlytics.FirebaseCrashlytics;
 import com.joom.paranoid.Obfuscate;
-import com.raiferoleplay.game.R;
-import com.raiferoleplay.game.launcher.config.Config;
-import com.raiferoleplay.game.launcher.util.SharedPreferenceCore;
-import com.raiferoleplay.game.launcher.util.SignatureChecker;
-import com.raiferoleplay.game.launcher.util.Util;
+import com.nativoroleplay.game.R;
+import com.nativoroleplay.game.launcher.config.Config;
+import com.nativoroleplay.game.launcher.util.SharedPreferenceCore;
+import com.nativoroleplay.game.launcher.util.SignatureChecker;
+import com.nativoroleplay.game.launcher.util.Util;
 
 import java.io.File;
 
@@ -91,7 +91,7 @@ public class SplashActivity extends AppCompatActivity {
         else {
             Config.currentContext = this;
 
-            prefs = getSharedPreferences("com.raiferoleplay.game", MODE_PRIVATE);
+            prefs = getSharedPreferences("com.nativoroleplay.game", MODE_PRIVATE);
 
             builder = new AlertDialog.Builder(this);
 

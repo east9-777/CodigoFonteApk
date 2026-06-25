@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.launcher.util;
+package com.nativoroleplay.game.launcher.util;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -14,13 +14,13 @@ import android.widget.RemoteViews;
 import androidx.core.app.NotificationCompat;
 
 import com.bumptech.glide.Glide;
-import com.raiferoleplay.game.R;
+import com.nativoroleplay.game.R;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
 import java.util.concurrent.ExecutionException;
 
-import com.raiferoleplay.game.launcher.SplashActivity;
+import com.nativoroleplay.game.launcher.SplashActivity;
 
 public class FirebaseMessageReceiver extends FirebaseMessagingService {
     @Override

@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.game;
+package com.nativoroleplay.game.game;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -9,13 +9,13 @@ import android.view.LayoutInflater;
 
 import com.google.firebase.crashlytics.FirebaseCrashlytics;
 import com.joom.paranoid.Obfuscate;
-import com.raiferoleplay.game.cef.CefBrowser;
-import com.raiferoleplay.game.game.ui.AttachEdit;
-import com.raiferoleplay.game.game.ui.CustomKeyboard;
-import com.raiferoleplay.game.game.ui.LoadingScreen;
-import com.raiferoleplay.game.game.ui.dialog.DialogManager;
+import com.nativoroleplay.game.cef.CefBrowser;
+import com.nativoroleplay.game.game.ui.AttachEdit;
+import com.nativoroleplay.game.game.ui.CustomKeyboard;
+import com.nativoroleplay.game.game.ui.LoadingScreen;
+import com.nativoroleplay.game.game.ui.dialog.DialogManager;
 
-import com.raiferoleplay.game.game.ui.Celular;
+import com.nativoroleplay.game.game.ui.Celular;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;

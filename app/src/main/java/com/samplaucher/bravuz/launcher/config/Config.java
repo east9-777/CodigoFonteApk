@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.launcher.config;
+package com.nativoroleplay.game.launcher.config;
 
 import android.app.Activity;
 

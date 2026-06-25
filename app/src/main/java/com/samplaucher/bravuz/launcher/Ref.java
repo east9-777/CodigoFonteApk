@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.launcher;
+package com.nativoroleplay.game.launcher;
 
 import java.util.ArrayList;
 

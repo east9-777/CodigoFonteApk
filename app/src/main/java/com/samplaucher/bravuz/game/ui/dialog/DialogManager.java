@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.game.ui.dialog;
+package com.nativoroleplay.game.game.ui.dialog;
 
 import android.app.Activity;
 import android.content.Context;
@@ -20,9 +20,9 @@ import androidx.recyclerview.widget.SimpleItemAnimator;
 
 import com.joom.paranoid.Obfuscate;
 import com.nvidia.devtech.NvEventQueueActivity;
-import com.raiferoleplay.game.R;
-import com.raiferoleplay.game.launcher.util.CustomRecyclerView;
-import com.raiferoleplay.game.launcher.util.Util;
+import com.nativoroleplay.game.R;
+import com.nativoroleplay.game.launcher.util.CustomRecyclerView;
+import com.nativoroleplay.game.launcher.util.Util;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;

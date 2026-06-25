@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.launcher.util;
+package com.nativoroleplay.game.launcher.util;
 
 import android.animation.AnimatorInflater;
 import android.animation.AnimatorSet;
@@ -6,7 +6,7 @@ import android.content.Context;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.raiferoleplay.game.R;
+import com.nativoroleplay.game.R;
 
 public class ButtonAnimator implements View.OnTouchListener {
     private final Context mContext;

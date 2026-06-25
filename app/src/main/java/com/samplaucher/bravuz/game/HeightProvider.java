@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.game;
+package com.nativoroleplay.game.game;
 
 import android.app.Activity;
 import android.graphics.Rect;

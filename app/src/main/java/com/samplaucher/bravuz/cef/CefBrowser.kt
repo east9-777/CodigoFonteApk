@@ -1,7 +1,7 @@
-package com.raiferoleplay.game.cef
+package com.nativoroleplay.game.cef
 
 import android.util.Log
-import com.raiferoleplay.game.game.SAMP
+import com.nativoroleplay.game.game.SAMP
 import org.json.JSONObject
 
 /**

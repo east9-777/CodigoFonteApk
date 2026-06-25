@@ -1,11 +1,11 @@
-package com.raiferoleplay.game.game.ui;
+package com.nativoroleplay.game.game.ui;
 
 import android.app.Activity;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.raiferoleplay.game.R;
+import com.nativoroleplay.game.R;
 
 public class Celular {
 

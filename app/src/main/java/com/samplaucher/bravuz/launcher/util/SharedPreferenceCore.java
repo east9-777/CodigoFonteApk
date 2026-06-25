@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.launcher.util;
+package com.nativoroleplay.game.launcher.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;

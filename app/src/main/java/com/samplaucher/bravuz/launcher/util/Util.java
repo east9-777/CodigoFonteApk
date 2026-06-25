@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.launcher.util;
+package com.nativoroleplay.game.launcher.util;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -21,9 +21,9 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.raiferoleplay.game.R;
-import com.raiferoleplay.game.launcher.MainActivity;
-import com.raiferoleplay.game.launcher.config.Config;
+import com.nativoroleplay.game.R;
+import com.nativoroleplay.game.launcher.MainActivity;
+import com.nativoroleplay.game.launcher.config.Config;
 
 import java.io.BufferedReader;
 import java.io.File;

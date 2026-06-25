@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.launcher.data;
+package com.nativoroleplay.game.launcher.data;
 
 public class FilesData {
 

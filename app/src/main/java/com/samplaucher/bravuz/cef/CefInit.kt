@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.cef
+package com.nativoroleplay.game.cef
 
 import android.app.Application
 import android.util.Log

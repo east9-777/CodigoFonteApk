@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.launcher.util;
+package com.nativoroleplay.game.launcher.util;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -6,7 +6,7 @@ import android.view.MotionEvent;
 
 import androidx.viewpager.widget.ViewPager;
 
-import com.raiferoleplay.game.launcher.MainActivity;
+import com.nativoroleplay.game.launcher.MainActivity;
 
 public final class ViewPagerWithoutSwipe extends ViewPager {
     @Override

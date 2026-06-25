@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.game;
+package com.nativoroleplay.game.game;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -8,7 +8,7 @@ import android.view.KeyEvent;
 
 import com.bytedance.shadowhook.ShadowHook;
 import com.joom.paranoid.Obfuscate;
-import com.raiferoleplay.game.launcher.util.SharedPreferenceCore;
+import com.nativoroleplay.game.launcher.util.SharedPreferenceCore;
 import com.wardrumstudios.utils.WarMedia;
 
 @Obfuscate

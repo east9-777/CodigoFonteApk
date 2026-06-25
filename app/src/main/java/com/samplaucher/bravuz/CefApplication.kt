@@ -1,9 +1,9 @@
-package com.raiferoleplay.game
+package com.nativoroleplay.game
 
 import android.app.Application
 import android.content.pm.ApplicationInfo
 import android.webkit.WebView
-import com.raiferoleplay.game.cef.CefInit
+import com.nativoroleplay.game.cef.CefInit
 
 class CefApplication : Application() {
     override fun onCreate() {

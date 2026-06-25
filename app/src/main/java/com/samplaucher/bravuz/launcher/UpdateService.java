@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.launcher;
+package com.nativoroleplay.game.launcher;
 
 import android.app.Service;
 import android.content.Intent;
@@ -24,8 +24,8 @@ import com.downloader.PRDownloader;
 import com.downloader.PRDownloaderConfig;
 import com.downloader.Progress;
 import com.joom.paranoid.Obfuscate;
-import com.raiferoleplay.game.launcher.data.FilesData;
-import com.raiferoleplay.game.launcher.util.Util;
+import com.nativoroleplay.game.launcher.data.FilesData;
+import com.nativoroleplay.game.launcher.util.Util;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -379,7 +379,7 @@ public class UpdateService extends Service {
             Log.d("Thziim", "startDataUpdating " + mUpdateGameDataSize + " " + mUpdateGameDataSizeUpdated);
 
             mDownloadingStatus = true;
-            PRDownloader.download("http://192.168.0.114/apikayzen/com.raiferoleplay.game/" + arrayList.get(intRef.element), string.replace(arrayList1.get(intRef.element).toString(), ""), String.valueOf(arrayList1.get(intRef.element))).build().setOnStartOrResumeListener(null).setOnPauseListener(null).setOnCancelListener(null).setOnProgressListener(new OnProgressListener() {
+            PRDownloader.download("http://192.168.0.114/apikayzen/com.nativoroleplay.game/" + arrayList.get(intRef.element), string.replace(arrayList1.get(intRef.element).toString(), ""), String.valueOf(arrayList1.get(intRef.element))).build().setOnStartOrResumeListener(null).setOnPauseListener(null).setOnCancelListener(null).setOnProgressListener(new OnProgressListener() {
                 @Override
                 public void onProgress(Progress progress) {
                     mDownloadingStatus = true;
@@ -526,7 +526,7 @@ public class UpdateService extends Service {
     public boolean isGameUpdateExists() {
         PackageInfo packageInfo = null;
         try {
-            packageInfo = getPackageManager().getPackageInfo("com.raiferoleplay.game", PackageManager.GET_ACTIVITIES);
+            packageInfo = getPackageManager().getPackageInfo("com.nativoroleplay.game", PackageManager.GET_ACTIVITIES);
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
         }

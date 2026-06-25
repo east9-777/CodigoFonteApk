@@ -1,4 +1,4 @@
-package com.raiferoleplay.game.game.ui.dialog;
+package com.nativoroleplay.game.game.ui.dialog;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -11,8 +11,8 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.joom.paranoid.Obfuscate;
-import com.raiferoleplay.game.R;
-import com.raiferoleplay.game.launcher.util.Util;
+import com.nativoroleplay.game.R;
+import com.nativoroleplay.game.launcher.util.Util;
 
 import java.util.ArrayList;
 @Obfuscate
