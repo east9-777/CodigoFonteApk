@@ -16,12 +16,12 @@ android {
             keyPassword = "1205101"
         }
     }
-    namespace = "com.raiferoleplay.game"
+    namespace = "com.nativoroleplay.game"
     //noinspection GradleDependency
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.raiferoleplay.game"
+        applicationId = "com.nativoroleplay.game"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

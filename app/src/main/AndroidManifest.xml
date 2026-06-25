@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.raiferoleplay.game"
+    package="com.nativoroleplay.game"
     android:installLocation="auto">
 
     <uses-permission android:name="INSTALL_PACKAGES" />
@@ -75,7 +75,7 @@
         </provider>
 
         <activity
-            android:name="com.raiferoleplay.game.game.SAMP"
+            android:name="com.nativoroleplay.game.game.SAMP"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
@@ -111,7 +111,7 @@
         <service android:name=".launcher.UpdateService" android:enabled="true" android:exported="false"/>
 
         <service
-            android:name="com.raiferoleplay.game.launcher.util.FirebaseMessageReceiver"
+            android:name="com.nativoroleplay.game.launcher.util.FirebaseMessageReceiver"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
